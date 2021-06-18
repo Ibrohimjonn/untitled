@@ -31,7 +31,7 @@ class _HomeState extends State<Home> {
                       ),
                    child: ClipRRect(
                      borderRadius: BorderRadius.circular(16),
-                     child: Image.asset('assets/jennie.jpg',fit: BoxFit.cover,),
+                     child: Image.asset('assets/tae.jpg',fit: BoxFit.cover,),
                    ),
                   ),
                 Container(
@@ -41,6 +41,15 @@ class _HomeState extends State<Home> {
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(16),
                     child: Image.asset('assets/jennie.jpg',fit: BoxFit.cover,),
+                  ),
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(16),
+                    child: Image.asset('assets/tae.jpg',fit: BoxFit.cover,),
                   ),
                 ),
                 Container(
