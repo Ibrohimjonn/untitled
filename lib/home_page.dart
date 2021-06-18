@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
         color: Color.fromRGBO(245, 167, 188, 1),
         child: Column(
           children: [
-            SizedBox(height: 20,),
+            SizedBox(height: 15,),
             Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(16),
